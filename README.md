@@ -24,6 +24,17 @@ Go to `https://github.com/Mhdez221993/webpack-boilerplate`
 5. `npm run build`.
 5. `npm run start`.
 
+## To run linters
+
+1. `npx eslint .`
+2. `npx stylelint "**/*.{css,scss}"`
+- for auto fix
+3. `npx eslint . --fix`
+4. `npx stylelint "**/*.{css,scss}" --fix`
+
+## To run jest test
+1. `npm run test` or
+2. `npm run jest` to watch all file in real time
 
 
 ## Authors
